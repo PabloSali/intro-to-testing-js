@@ -4,7 +4,6 @@ function helloWorld() {
     return "Hello, World!";
 }
 //---------------------------------------
-// 1, 2, 3, 4,
 function sayHello(input){
     if(typeof input != 'string'){
         return 'Hello, World!';
@@ -13,7 +12,16 @@ function sayHello(input){
     }
 }
 //---------------------------------------
-//
+
 function isFive(input){
     return input === 5;
 }
+//----------------------------------------
+function isEven(input){
+    if(typeof input === 'boolean'){
+     return false;
+    } else {
+        return input % 2 === 0;
+    }
+}
+//---------------------------------------
