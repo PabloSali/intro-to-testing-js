@@ -6,7 +6,11 @@ function helloWorld() {
 //---------------------------------------
 // 1, 2, 3, 4,
 function sayHello(input){
- return 'Hello, ' + input + '!';
+    if(typeof input != 'string'){
+        return 'Hello, World!';
+    } else {
+        return 'Hello, ' + input + '!';
+    }
 }
 //---------------------------------------
 //
